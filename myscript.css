@@ -1,0 +1,26 @@
+.boxx {
+    position: absolute;
+    left: 49.275%;
+    top: 55%;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: -0.625rem;
+    /* -1/2 width */
+    margin-top: -0.625rem;
+    /* -1/2 height */
+    color: whitesmoke;
+    font-size: medium;
+    font-size: large;
+}
+
+.cssbody {
+    background-color: rgb(28, 30, 58);
+}
+
+.boxx1 {
+    left: 45.5%;
+    top: 45%;
+    position: absolute;
+    color: whitesmoke;
+    font-size: larger;
+}

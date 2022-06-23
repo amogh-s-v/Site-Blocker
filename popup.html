@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body style="min-width:250px;min-height:200px">
+    <h2 style="color: whitesmoke;">You are currently on:</h2>
+    <h3 id="site" style="color: whitesmoke;">website</h3>
+    
+    <p style="color: whitesmoke; font-size: 0.85rem; font-weight: 500;">Block for: </p>
+
+    <div class="tab">
+        <button class="tablinks" id="hours">Hours</button>
+        <button class="tablinks" id="minutes">Minutes</button>
+    </div>
+
+    <div id="Hours" class="tabcontent">
+        <p style="color: whitesmoke; font-size: 0.9rem;">Enter duration</p>
+        <input type="number" id="duration1" min="1" style="color: black; background-color: whitesmoke;">
+        <br></br>
+        <button type="button" id="block1" style="color: whitesmoke; background-color: rgb(227, 79, 79);"> Block </button>
+    </div>
+
+    <div id="Minutes" class="tabcontent">
+        <p style="color: whitesmoke; font-size: 0.9rem;">Enter duration</p>
+
+        <input type="number" id="duration2" min="1" style="color: black; background-color: whitesmoke;">
+        <br></br>
+        <button type="button" id="block2" style="color: whitesmoke; background-color: rgb(227, 79, 79);"> Block </button>
+    </div>
+
+
+</body>
+
+</html>
